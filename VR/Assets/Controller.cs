@@ -33,12 +33,16 @@ public class Controller : MonoBehaviour {
 				Debug.Log ("Plane");
 				walking = true;
 
-			} else if (hit.rigidbody.name.Contains ("Ravish")) {
-				if (hit.distance < 2.5F) {
-					walking = false;
-				}
-
-			} else {
+			} 
+//				else if (hit.rigidbody.name.Contains ("Ravish")) {
+//				if (hit.distance < 2.5F) {
+//					walking = false;
+//				} else {
+//					walking = false;
+//				}
+//
+//			}
+				else {
 				walking = false;
 			}
 		}
